@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Site Multimídia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .image-gallery img {
+      width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .music-player {
+      margin: 30px auto;
+    }
+
+    .text-content {
+      background: #ffffff;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo ao Meu Site Multimídia!</h1>
+
+  <!-- Text Section -->
+  <div class="text-content">
+    <h2>Sobre mim</h2>
+    <p>Este é um site onde compartilho um pouco sobre mim. Aqui você encontrará minhas músicas favoritas, fotos que gosto e textos que escrevi.</p>
+  </div>
+
+  <!-- Image Gallery -->
+  <h2>Minhas Fotos</h2>
+  <div class="image-gallery">
+    <img src="https://placekitten.com/200/200" alt="Foto 1">
+    <img src="https://placebear.com/200/200" alt="Foto 2">
+    <img src="https://placebeard.it/200x200" alt="Foto 3">
+  </div>
+
+  <!-- Music Player -->
+  <div class="music-player">
+    <h2>Ouça uma música</h2>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio.
+    </audio>
+  </div>
+
+  <footer>
+    <p>Feito por Você © 2025</p>
+  </footer>
+</body>
+</html>
